@@ -13,14 +13,14 @@ var Stack = function() {
   };
 
   someInstance.pop = function() {
-    var value = storage[last-1];
+    var value = storage[last - 1];
     last--;
     return value;
   };
 
   someInstance.size = function() {
     var size = last - first;
-    return size>0 ? size : 0;
+    return size > 0 ? size : 0;
   };
 
   return someInstance;
