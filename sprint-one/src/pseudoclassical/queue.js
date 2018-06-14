@@ -18,7 +18,7 @@ Queue.prototype.dequeue = function() {
 
 Queue.prototype.size = function() {
   var size = this.last - this.first;
-  return size<0 ? 0 : size;
+  return size < 0 ? 0 : size;
 };
 
 var newInstance = new Queue();
